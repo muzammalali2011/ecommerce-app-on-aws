@@ -7,7 +7,7 @@ import './Navbar.css';
 function Navbar({ signOut, user, onSignInClick }) {
   const displayName = user?.signInDetails?.loginId || user?.username || 'User';
   const { cartCount } = useCart();
-  
+
   return (
     <nav className="navbar">
       <div className="nav-brand">
@@ -25,14 +25,6 @@ function Navbar({ signOut, user, onSignInClick }) {
         <Link to="/orders">📦 Orders</Link>
       </div>
       <div className="nav-right">
-        <a 
-          href="https://www.awswithchetan.com" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="website-link"
-        >
-          🌐 awswithchetan.com
-        </a>
         {user ? (
           <div className="user-info">
             <span className="user-name">{displayName}</span>
