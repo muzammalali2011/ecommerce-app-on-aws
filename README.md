@@ -65,15 +65,6 @@ We will deploy this eCommerce application to AWS by going module-by-module as fo
 
 **Time required**: 4-5 hours
 
-## Cost Estimates
-
-- **AWS Deployment** (4-hour session): ~$1-2 (If you have new AWS account and free credits, there will be no cost).
-<img width="470" height="527" alt="cost-breakdown" src="https://github.com/user-attachments/assets/ab09b0a1-c74d-4c7a-be01-ef349e7829d9" />
-
-Note: The EC2 and EC2-other cost that you see above is for a different project I was doing, so you can omit these cost from above estimates.
-
-**If completed in 4 hours:** ~$1.3-1.8  
-
 > **Note**: Remember to clean up AWS resources after learning to avoid ongoing charges.
 
 ## Getting Started
